@@ -24,10 +24,10 @@
 
 </div>
 
- <div class="botan">
- <a class="to-show"><%= link_to "Show", book_path(@book.id) %></a>
- |
- <a class="back"><%= link_to "Back", "/books" %></a>
+ <div class="button">
+ <%= link_to "Show", book_path(@book.id) %>
+
+ <%= link_to "Back", "/books" %>
  </div>
 
 <% end %>

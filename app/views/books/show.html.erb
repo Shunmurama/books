@@ -14,9 +14,9 @@
  </div>
 
  <div class="botan">
- <a class="to-edit"><%= link_to "Edit", edit_book_path(@book.id) %></a>
- |
- <a class="to-index"><%= link_to "Back", "/books" %></a>
+ <%= link_to "Edit", edit_book_path(@book.id) %>
+
+ <%= link_to "Back", books_path %>
  </div>
 
 </body>

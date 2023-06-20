@@ -74,7 +74,7 @@ p{
   padding-left: 5px;
 }
 
-.botan{
+.button{
   display: flex;
   margin-top:30px;
 }
@@ -134,26 +134,12 @@ p{
   margin-left: 30px;
 }
 
-table{
+.index-all{
   margin-left: 30px;
 }
 
-thead{
-  display:flex;
-}
 
-table,tr,td{
-  width: auto !important;
-}
 
-ul{
-  display: flex;
-  list-style: none;
-}
-
-li{
-  margin-right: 10px;
-}
 
 .error-box{
   margin-left: 30px;
@@ -167,3 +153,4 @@ li{
   list-style: disc;
   margin-left:50px;
 }
+
